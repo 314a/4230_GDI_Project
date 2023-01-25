@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "4230 Geoinformatik und Raumanalyse"
+  author: "Pia Bereuter"
+  date: today
+  output-file: "4230_Geoinformatik_und_Raumanalyse"
+  date-format: "D. MMMM. YYYY"
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+language: _resources/_language-de.yml
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
